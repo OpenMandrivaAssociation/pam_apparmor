@@ -2,7 +2,7 @@
 
 Summary:	PAM module for AppArmor
 Name:		pam_apparmor
-Version:	2.1.2
+Version:	2.3
 Release:	%mkrel 1.%{rev}.1
 License:	GPL
 Group:		System/Libraries
