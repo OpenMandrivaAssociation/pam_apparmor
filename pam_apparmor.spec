@@ -3,7 +3,7 @@
 Summary:	PAM module for AppArmor
 Name:		pam_apparmor
 Version:	2.3
-Release:	%mkrel 1.%{rev}.1
+Release:	%mkrel 1.%{rev}.2
 License:	GPL
 Group:		System/Libraries
 URL:		http://forge.novell.com/modules/xfmod/project/?apparmor
