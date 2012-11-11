@@ -1,0 +1,13 @@
+Index: Makefile
+===================================================================
+--- Makefile	(revisão 965)
++++ Makefile	(cópia de trabalho)
+@@ -28,7 +28,7 @@
+ endif
+ 
+ EXTRA_CFLAGS=$(CFLAGS) -fPIC -shared -Wall
+-LINK_FLAGS=-Xlinker -x
++LINK_FLAGS=-Xlinker -x $(LDFLAGS)
+ LIBS=-lpam -lapparmor
+ OBJECTS=${NAME}.o get_options.o
+ 
